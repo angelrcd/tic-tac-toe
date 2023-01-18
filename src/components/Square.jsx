@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-export default function Square( {value, onSquareClick} ) {
+export default function Square( {isWinner, value, onSquareClick} ) {
   return (
-    <button onClick={onSquareClick} className="square">{value}</button>
+    <button onClick={onSquareClick} className={`${isWinner ? 'winner': ''} square`}>{value}</button>
   )
 }

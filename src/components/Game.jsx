@@ -21,6 +21,7 @@ export default function Game() {
     let description;
     console.log("move: "+move);
     console.log("currentMove: "+currentMove);
+    console.log(move === currentMove);
 
     if (move > 0) {
       description = 'Go to move #' + move;

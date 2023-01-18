@@ -20,6 +20,10 @@ body {
   float: left;
 }
 
+.winner {
+  background: red;
+}
+
 .board-row {
   height: 50px;
 }
