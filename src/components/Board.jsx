@@ -9,7 +9,7 @@ export default function Board ({ xIsNext, squares, onPlay }) {
   if (winner) {
     status = "Winner: " + winner;
   } else {
-    status = "Next Player: " + (xIsNext ? "X" : "O")
+    status = (xIsNext ? "X" : "O") + " Turn";
   }
 
 
